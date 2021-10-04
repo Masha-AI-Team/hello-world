@@ -1,5 +1,7 @@
 Hiding the classic “Image not found” icon from a rendered HTML page when an image file is not found?
 
+##JAVASCRIPT
+
 <script>
     document.addEventListener("DOMContentLoaded", function (event) {
         document.querySelectorAll('img').forEach(function (img) {
